@@ -9,4 +9,4 @@ RUN yarn global add eslint-config-standard \
                    eslint-config-standard \
                    eslint-config-standard-jsx \
                    eslint-plugin-import
-RUN yarn global add babel-cli@{BABEL_CLI}
+RUN yarn global add babel-cli@${BABEL_CLI}
